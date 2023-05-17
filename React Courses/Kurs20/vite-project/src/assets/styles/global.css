@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111;
+    color: #fff;
+    padding: 30px 20px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+h1{
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    padding: 6px 40px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.btn:hover{
+    background-color: #d2dce6;
+}
